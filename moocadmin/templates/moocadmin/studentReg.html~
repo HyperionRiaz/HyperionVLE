@@ -1,0 +1,479 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html class="safari">
+<head>
+
+<title>
+New student registration
+</title>
+
+<!-- Meta Tags -->
+<meta charset="utf-8">
+<meta name="generator" content="Wufoo">
+<meta name="robots" content="index">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="canonical" href="http://hyperionde.wufoo.com/forms/zl06zx41ftqjxp/">
+
+<!-- CSS -->
+<link href="{% static 'moocadmin/index.0085.css' %}" rel="stylesheet">
+<link href="{% static 'moocadmin/theme.css' %}" rel="stylesheet">
+
+<!--[if lt IE 10]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body id="public" onorientationchange="window.scrollTo(0, 1)">
+
+
+
+<div id="container" class="ltr">
+	<h1 id="logo">
+				<a>Wufoo</a>
+			</h1>
+	
+	<form id="form1" name="form1" class="wufoo topLabel page1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+		action="{% url 'signup_process' %}">
+  
+<header id="header" class="info">
+	<h2>New student registration</h2>
+	<div>Fill out this form to start your online lessons with Hyperion Development.  Online lessons are FREE.<br />
+<br />
+Hyperion also offers in person one-on-one programming training in any language or topic you would like to develop skills in. Please  <a href="https://hyperionde.wufoo.eu/forms/private-training-registration/"> click here</a> to sign up for this service - rates start at R100/lesson.</div>
+</header>
+
+<ul>
+		
+		
+		
+	
+<li id="fo1li1" 		class="notranslate      ">
+	<label class="desc" id="title1" for="Field1">
+		Name
+				<span id="req_1" class="req">*</span>
+			</label>
+	<span>
+		<input id="Field1" 			name="Field1" 			type="text" 			class="field text fn" 			value="" 			size="8" 			tabindex="1" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						required 			/>
+		<label for="Field1">First</label>
+	</span>
+	<span>
+		<input id="Field2" 			name="Field2" 			type="text" 			class="field text ln" 			value="" 			size="14" 			tabindex="2" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						required 			/>
+		<label for="Field2">Last</label>
+	</span>
+		<p class="instruct" id="instruct1"><small>Enter your first and last name.</small></p>
+	</li>
+
+
+
+<li id="fo1li3" 		class="notranslate      ">
+	<label class="desc" id="title3" for="Field3">
+		Email
+				<span id="req_3" class="req">*</span>
+			</label>
+	<div>
+		<input id="Field3" 			name="Field3" 			type="email" 			spellcheck="false" 			class="field text medium" 			value="" 			maxlength="255" 			tabindex="3" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						required 			/> 
+	</div>
+		<p class="instruct" id="instruct3"><small>Enter your email address. We will not share this information with anyone else. </small></p>
+	</li>
+
+
+
+<li id="fo1li4" 		class="notranslate      ">
+	<label class="desc" id="title4" for="Field4">
+		Phone Number - we will NOT use your phone number for advertising
+				<span id="req_4" class="req">*</span>
+			</label>
+	<div>
+		<input id="Field4" 			class="field text medium" 			name="Field4" 			tabindex="4" 						onkeyup="handleInput(this);" 			onchange="handleInput(this);" 						required 			 
+			type="tel" maxlength="255" value="" /> 
+	</div>
+			<p class="instruct" id="instruct4"><small>Enter your cellphone number. We will only phone you to help you fix issues with setting up Dropbox!</small></p>
+</li>
+
+
+<li id="fo1li6" 		class="notranslate       ">
+	<label class="desc" id="title6" for="Field6">
+		Tertiary institution
+				<span id="req_6" class="req">*</span>
+			</label>
+	<div>
+		<select id="Field6" 			name="Field6" 			class="field select large" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 						tabindex="5" > 
+						<option value="" 								selected="selected">
+			</option>
+						<option value="Nelson Mandela Metropolitan University" 				>
+				Nelson Mandela Metropolitan University
+			</option>
+						<option value="University of KwaZulu-Natal (Westville Campus)" 				>
+				University of KwaZulu-Natal (Westville Campus)
+			</option>
+						<option value="University of KwaZulu-Natal (Howard Campus)" 				>
+				University of KwaZulu-Natal (Howard Campus)
+			</option>
+						<option value="University of KwaZulu-Natal (PMB Campus)" 				>
+				University of KwaZulu-Natal (PMB Campus)
+			</option>
+						<option value="University of KwaZulu-Natal (Other campus)" 				>
+				University of KwaZulu-Natal (Other campus)
+			</option>
+						<option value="University of Witwatersrand" 				>
+				University of Witwatersrand
+			</option>
+						<option value="University of Pretoria" 				>
+				University of Pretoria
+			</option>
+						<option value="University of Stellenbosch" 				>
+				University of Stellenbosch
+			</option>
+						<option value="University of Western Cape" 				>
+				University of Western Cape
+			</option>
+						<option value="Rhodes University" 				>
+				Rhodes University
+			</option>
+						<option value="University of Edinburgh" 				>
+				University of Edinburgh
+			</option>
+						<option value="University of Pennsylvania" 				>
+				University of Pennsylvania
+			</option>
+						<option value="University of Johannesburg" 				>
+				University of Johannesburg
+			</option>
+						<option value="University of Cape Town" 				>
+				University of Cape Town
+			</option>
+						<option value="CTI College (Durban)" 				>
+				CTI College (Durban)
+			</option>
+						<option value="Varisty College" 				>
+				Varisty College
+			</option>
+						<option value="Durban University of Technology" 				>
+				Durban University of Technology
+			</option>
+						<option value="University of South Africa (UNISA)" 				>
+				University of South Africa (UNISA)
+			</option>
+						<option value="I work in industry" 				>
+				I work in industry
+			</option>
+						<option value="I am a researcher/academic" 				>
+				I am a researcher/academic
+			</option>
+						<option value="Other - UK university" 				>
+				Other - UK university
+			</option>
+						<option value="Other - Southern African university" 				>
+				Other - Southern African university
+			</option>
+						<option value="Other" 				>
+				Other
+			</option>
+					</select>
+	</div>
+		<p class="instruct" id="instruct6"><small>Select where you study. </small></p>
+	</li>
+
+
+
+<li id="fo1li7" 		class="notranslate       ">
+	<label class="desc" id="title7" for="Field7">
+		Background in programming
+				<span id="req_7" class="req">*</span>
+			</label>
+	<div>
+		<select id="Field7" 			name="Field7" 			class="field select large" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 						tabindex="6" > 
+						<option value="" 								selected="selected">
+			</option>
+						<option value="I&#039;ve never programmed before." 				>
+				I've never programmed before.
+			</option>
+						<option value="I did programming/took IT in school." 				>
+				I did programming/took IT in school.
+			</option>
+						<option value="I study Computer Science or programming at a university level" 				>
+				I study Computer Science or programming at a university level
+			</option>
+						<option value="I am an advanced programmer and find even university programming easy" 				>
+				I am an advanced programmer and find even university programming easy
+			</option>
+					</select>
+	</div>
+		<p class="instruct" id="instruct7"><small>Select an option about your background in in programming.This will help us give you an appropriate programming course. </small></p>
+	</li>
+
+
+
+<li id="fo1li19" 		class="notranslate       ">
+	<label class="desc" id="title19" for="Field19">
+		Which free programming course would you like to take?
+				<span id="req_19" class="req">*</span>
+			</label>
+	<div>
+		<select id="Field19" 			name="Field19" 			class="field select large" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 						tabindex="7" > 
+						<option value="" 								selected="selected">
+			</option>
+						<option value="Python (Beginner)" 				>
+				Python (Beginner)
+			</option>
+						<option value="Python (Intermediate)" 				>
+				Python (Intermediate)
+			</option>
+						<option value="Python (Advanced)" 				>
+				Python (Advanced)
+			</option>
+						<option value="R (Beginner)" 				>
+				R (Beginner)
+			</option>
+						<option value="C++ (Beginner)" 				>
+				C++ (Beginner)
+			</option>
+						<option value="Java (Beginner)" 				>
+				Java (Beginner)
+			</option>
+						<option value="Java - Beans binding and Derby" 				>
+				Java - Beans binding and Derby
+			</option>
+						<option value="Whichever you think is best for me!" 				>
+				Whichever you think is best for me!
+			</option>
+					</select>
+	</div>
+		<p class="instruct" id="instruct19"><small>Choose a programming course you'd like to take. You can always change later or if you finish your first course. If you don't know what any of these mean, choose the last option.</small></p>
+	</li>
+
+
+
+<li id="fo1li11" 		class="notranslate       ">
+	<label class="desc" id="title11" for="Field11">
+		How did you hear about us?
+				<span id="req_11" class="req">*</span>
+			</label>
+	<div>
+		<select id="Field11" 			name="Field11" 			class="field select large" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 						tabindex="8" > 
+						<option value="" 								selected="selected">
+			</option>
+						<option value="Poster" 				>
+				Poster
+			</option>
+						<option value="Talk in my lecture" 				>
+				Talk in my lecture
+			</option>
+						<option value="Seen on Facebook/Internet" 				>
+				Seen on Facebook/Internet
+			</option>
+						<option value="A friend told me" 				>
+				A friend told me
+			</option>
+						<option value="Seen in email" 				>
+				Seen in email
+			</option>
+						<option value="Other" 				>
+				Other
+			</option>
+					</select>
+	</div>
+	</li>
+
+
+
+<li id="fo1li14" 		class="notranslate       ">
+	<label class="desc" id="title14" for="Field14">
+		Do you have your own computer? Enter 'No' if the only computers you use are university owned computers (eg computer LAN)
+				<span id="req_14" class="req">*</span>
+			</label>
+	<div>
+		<select id="Field14" 			name="Field14" 			class="field select large" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 						tabindex="9" > 
+						<option value="" 								selected="selected">
+			</option>
+						<option value="Yes, I have my own computer" 				>
+				Yes, I have my own computer
+			</option>
+						<option value="No, I don&#039;t have a computer" 				>
+				No, I don't have a computer
+			</option>
+					</select>
+	</div>
+		<p class="instruct" id="instruct14"><small>If you don't own your own PC/Laptop and internet connection please select 'No'.</small></p>
+	</li>
+
+
+
+<li id="fo1li23" 
+		class="notranslate      hide">
+	
+		
+	<label class="desc" id="title23" for="Field23">
+		Which computer will you use to take the course? Explain if it is a university owned LAN computer, if you know if it has Java/Python/C++ installed on it or if you have permission to install these programs
+				<span id="req_23" class="req">*</span>
+			</label>
+	
+	<div>
+				<textarea id="Field23" 
+			name="Field23" 
+			class="field textarea small" 
+			spellcheck="true" 
+			rows="10" cols="50" 
+									tabindex="10" 
+			onkeyup="handleInput(this); "
+						onchange="handleInput(this);" 
+						required 			 ></textarea>
+			
+			</div>
+	
+		<p class="instruct" id="instruct23"><small>If you're using a university computer, you may need to install software on it to take our course. Please give more information on if you can do this.</small></p>
+		
+		
+	</li>
+
+
+
+<li id="fo1li21" 		class="notranslate       ">
+	<label class="desc" id="title21" for="Field21">
+		Do you have your own internet connection you can use on your computer? (ie have own modem, can use cellphone as a modem). Enter 'No' if you only use university owned internet
+				<span id="req_21" class="req">*</span>
+			</label>
+	<div>
+		<select id="Field21" 			name="Field21" 			class="field select large" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 						tabindex="11" > 
+						<option value="" 								selected="selected">
+			</option>
+						<option value="Yes, I have my own internet connection" 				>
+				Yes, I have my own internet connection
+			</option>
+						<option value="No, I use university owned internet" 				>
+				No, I use university owned internet
+			</option>
+					</select>
+	</div>
+		<p class="instruct" id="instruct21"><small>If you don't own your own PC/Laptop and internet connection please select 'No'.</small></p>
+	</li>
+
+
+
+<li id="fo1li12" 		class="notranslate       ">
+	<label class="desc" id="title12" for="Field12">
+		Do you check your email inbox at least once every 2 days?
+				<span id="req_12" class="req">*</span>
+			</label>
+	<div>
+		<select id="Field12" 			name="Field12" 			class="field select large" 						onclick="handleInput(this);" 			onkeyup="handleInput(this);" 						tabindex="12" > 
+						<option value="" 								selected="selected">
+			</option>
+						<option value="Yes" 				>
+				Yes
+			</option>
+						<option value="No" 				>
+				No
+			</option>
+					</select>
+	</div>
+	</li>
+
+
+
+<li id="fo1li128" 
+		class="notranslate      hide">
+	
+		
+	<label class="desc" id="title128" for="Field128">
+		We strongly encourage you to start using your email often in order to succeed on our courses, as our tutors will communicate with you through email. If you are not willing to do this, please enter details on how you can be contacted.<br />
+
+				<span id="req_128" class="req">*</span>
+			</label>
+	
+	<div>
+				<textarea id="Field128" 
+			name="Field128" 
+			class="field textarea medium" 
+			spellcheck="true" 
+			rows="10" cols="50" 
+									tabindex="13" 
+			onkeyup="handleInput(this); "
+						onchange="handleInput(this);" 
+						required 			 ></textarea>
+			
+			</div>
+	
+		<p class="instruct" id="instruct128"><small>If you don't check your email, please let us know how you would like us to contact you (you can enter Facebook/IM/Phone details). It is critical that you check your email for further instructions on how to setup the software to begin your course. <br />
+<br />
+</small></p>
+		
+		
+	</li>
+
+
+
+<li id="fo1li9" 
+		class="notranslate      ">
+	
+		
+	<label class="desc" id="title9" for="Field9">
+		Anything specific that you'd like to learn or any further explanation of your above answers/circumstances?
+			</label>
+	
+	<div>
+				<textarea id="Field9" 
+			name="Field9" 
+			class="field textarea medium" 
+			spellcheck="true" 
+			rows="10" cols="50" 
+									tabindex="14" 
+			onkeyup="handleInput(this); "
+						onchange="handleInput(this);" 
+									 ></textarea>
+			
+			</div>
+	
+		<p class="instruct" id="instruct9"><small>If you don't check your email, please let us know how you would like us to contact you (you can enter Facebook/IM/Phone details). It is critical that you check your email for further instructions on how to setup the software to begin your course. <br />
+<br />
+</small></p>
+		
+		
+	</li>
+
+
+ 
+	
+		
+	<li class="buttons ">
+		<div>
+								<input type="hidden" name="currentPage" id="currentPage" value="QmbswuBeuAKiZex9zlDoNJ9KALN4JrsRP3hI1ECYqhVxNA=" />
+						
+			    			    			        						    <input id="saveForm" name="saveForm" class="btTxt submit" 
+			    type="submit" value="Submit"
+				 onmousedown="doSubmitEvents();" />
+							
+				
+				</div>
+	</li>
+	
+		<li class="hide">
+		<label for="comment">Do Not Fill This Out</label>
+		<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+		<input type="hidden" id="idstamp" name="idstamp" value="Y0xHsMXatkc4D6+l2jDQSwfBEuP8aNuVLxQXitYFWok=" />
+				<input type="hidden" id="stats" name="stats" value="{&quot;errors&quot;:0,&quot;startTime&quot;:0,&quot;endTime&quot;:0,&quot;referer&quot;:&quot;http:\/\/www.rmoola.com\/new-student-registration.htm&quot;}" />
+				<input type="hidden" id="clickOrEnter" name="clickOrEnter" value="" />
+			</li>
+	</ul>
+</form> 
+
+</div><!--container-->
+
+
+<!-- JavaScript -->
+<script src="{% static 'moocadmin/scripts/dynamic.0085.js' %}?language=english"></script>
+
+<script>
+	__RULES = {"Field14":[{"RuleId":"79","Type":"Show","Setting":{"FieldName":"23","FieldTypes":{"14":"select"}},"FormId":"1","MatchType":"any","Conditions":[{"ConditionId":"149","FieldName":"14","Filter":"is","Value":"No, I don't have a computer","ReportId":"1","RuleId":"79"}]}],"Field12":[{"RuleId":"80","Type":"Show","Setting":{"FieldName":"128","FieldTypes":{"12":"select"}},"FormId":"1","MatchType":"any","Conditions":[{"ConditionId":"150","FieldName":"12","Filter":"is","Value":"No","ReportId":"1","RuleId":"80"}]}]};
+	__ENTRY = [];
+	__PRICES = null;
+
+	</script>
+
+<noscript></noscript>
+
+</body>
+</html>
+

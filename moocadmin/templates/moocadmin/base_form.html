@@ -1,0 +1,64 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html class="safari">
+<head>
+
+<title>
+New student registration
+</title>
+
+<!-- Meta Tags -->
+<meta charset="utf-8">
+<meta name="generator" content="Wufoo">
+<meta name="robots" content="index">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<link rel="canonical" href="http://hyperionde.wufoo.com/forms/zl06zx41ftqjxp/">
+
+<!-- CSS Files -->
+<link href="{% static 'moocadmin/index.0085.css' %}" rel="stylesheet">
+<link href="{% static 'moocadmin/theme.css' %}" rel="stylesheet">
+<!--[if lt IE 10]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body id="public" onorientationchange="window.scrollTo(0, 1)">
+
+
+
+<div id="container" class="ltr">
+	<h1 id="logo"><a>Wufoo</a></h1>
+
+<form enctype="multipart/form-data" class="wufoo topLabel page1" method="POST" action="./">{% csrf_token %}
+
+
+{% block header %}
+	<!-- Header info goes here -->
+{% endblock %}
+
+
+{% block form %}
+	<!-- Form as ul p or what ever you see fit goes here -->
+{% endblock %}
+
+</form>
+
+<!-- JavaScript -->
+<script src="{% static 'moocadmin/scripts/dynamic.0085.js' %}?language=english"></script>
+
+<script>
+	__RULES = {"Field14":[{"RuleId":"79","Type":"Show","Setting":{"FieldName":"23","FieldTypes":{"14":"select"}},"FormId":"1","MatchType":"any","Conditions":[{"ConditionId":"149","FieldName":"14","Filter":"is","Value":"No, I don't have a computer","ReportId":"1","RuleId":"79"}]}],"Field12":[{"RuleId":"80","Type":"Show","Setting":{"FieldName":"128","FieldTypes":{"12":"select"}},"FormId":"1","MatchType":"any","Conditions":[{"ConditionId":"150","FieldName":"12","Filter":"is","Value":"No","ReportId":"1","RuleId":"80"}]}]};
+	__ENTRY = [];
+	__PRICES = null;
+
+	</script>
+
+<noscript></noscript>
+
+<noscript></noscript>
+
+</body>
+</html>

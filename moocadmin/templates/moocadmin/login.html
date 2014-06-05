@@ -1,0 +1,20 @@
+<h1>Example of Hard Coded form</h1>
+<form action="../auth/" method="POST"> {% csrf_token %}
+<ul style="list-style: none;">    
+    <li><label for="username">User Name:</label></li>
+    <li><input type="text" name="username" value="" id="username"/></li>
+    <li><label for ="password">Password:</label></li>
+    <li><input type ="password" name="password" id="password" /></li> 
+    <li><input type="submit" value="login"></li>
+</ul>   
+</form>
+
+<h1>Example of form generated with Form class</h1>
+<ul style="list-style: none;">
+{{form.as_ul}}
+</ul>
+
+<h1>Example of form generated with FormModel class</h1>
+<ul style="list-style: none;">
+{{formModel.as_ul}}
+</ul>

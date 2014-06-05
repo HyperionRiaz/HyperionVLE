@@ -1,0 +1,40 @@
+{% extends "moocadmin/base_form.html" %}
+
+{% block form %}
+<ul style="list-style: none;">
+{%if error%}
+	<li id="errorLi">
+			<h3 id="errorMsgLbl">There was a problem with your submission.</h3>
+			<p id="errorMsg">
+				Errors have been<b>highlighted</b>below.
+			</p>
+		</li>
+{% endif %}
+
+{% for form in forms%}
+    {% for field in form %}
+        
+        {% if field.errors %}
+		
+		<li class="notranslate error" onkeyup="handleInput(this);" onchange="handleInput(this);">
+		{% for error in field.errors %}
+			<p class ="error"> 
+				{{error}} 
+			</p>
+		{% endfor %}
+	{% else %}
+		<li class="notranslate" onkeyup="handleInput(this);" onchange="handleInput(this);">
+        {% endif %}
+         
+			<label class ="desc" for = "id_{{field.name}}">
+				{{ field.label}}
+				<span class="req">*</span></label> 
+			<div>{{ field }}</div>
+			<p class="instruct"><small>{{field.help_text}}</small></p>
+           
+		</li>
+    {% endfor %}
+{% endfor %}    
+<li><input type="submit" value="submit"></li>
+</ul>
+{% endblock %}
